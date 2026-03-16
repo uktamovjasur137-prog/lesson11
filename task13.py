@@ -1,4 +1,8 @@
 qavat_soni = int(input("Qavat soni: "))
 balandligi = int(input("Balandligi: "))
 
-print(qavat_soni * balandligi)
+total = 0
+for i in range(qavat_soni):
+    total += balandligi 
+
+print(total)
